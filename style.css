@@ -87,3 +87,17 @@ button:not(.gray) {
         opacity: 0;
     }
 }
+
+@media screen and (max-width: 750px) {
+    .idea {
+        font-size: 5em;
+        max-height: 15em;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .idea {
+        font-size: 2em;
+        max-height: 15em;
+    }
+}
