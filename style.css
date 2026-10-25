@@ -31,10 +31,6 @@ button:not(.gray) {
     opacity: 1;
 }
 
-button.faded {
-    opacity: 0;
-}
-
 .buttons {
     display: flex;
     justify-content: center;
@@ -57,4 +53,37 @@ button.faded {
     height: fit-content;
     text-align: center;
     text-shadow: 0px 10px 19px rgba(0,0,0,0.16);
+}
+
+@keyframes gambleShrink {
+    0% {
+        scale: 1;
+        text-shadow: 0px 10px 19px rgba(0,0,0,0.16);
+    }
+
+    90% {
+        scale: 0.85 0.8;
+        text-shadow: 0px 1px 1.9px rgba(0,0,0,0.16);
+    }
+
+    95% {
+        scale: 1 1.1;
+    }
+
+    100% {
+        scale: 1;
+        text-shadow: 0px 10px 19px rgba(0,0,0,0.16);
+    }
+}
+
+@keyframes buttonFade {
+    0% {
+        transform: translateY(0) scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(1.2em) scale(.5, .43);
+        opacity: 0;
+    }
 }
