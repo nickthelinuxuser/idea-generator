@@ -2,6 +2,8 @@
 
 it generates ideas and does nothing else. (hopefully)
 
+![Image Generator img#1](1.png)
+
 <small>(if this does something else, let me know.)</small>
 
 <small>(this code may or may not be capable of nuclear warfare.)</small>
