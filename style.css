@@ -48,7 +48,7 @@ button:not(.gray) {
 }
 
 .idea {
-    font-size: 7em;
+    font-size: 4.5em;
     min-width: 200px;
     height: fit-content;
     text-align: center;
@@ -85,13 +85,6 @@ button:not(.gray) {
     100% {
         transform: translateY(1.2em) scale(.5, .43);
         opacity: 0;
-    }
-}
-
-@media screen and (max-width: 750px) {
-    .idea {
-        font-size: 5em;
-        max-height: 15em;
     }
 }
 
